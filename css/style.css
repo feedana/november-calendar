@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 80vh;
+    background-image: url('../pexels-boris-pavlikovsky-5491070.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 40px;
+}
+
+.calendar-container {
+    background: #e8d8b5; 
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 228px;
+    margin-left: 430px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 300px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+    width: 14.28%;
+}
+
+th {
+    font-weight: bold;
+}
